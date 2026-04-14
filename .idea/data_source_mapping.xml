@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/docker/mysql/init.sql" value="737707d1-2732-4b4a-af88-a9cd92d950e8" />
+    <file url="file://$PROJECT_DIR$/user-service/src/main/resources/db/migration/V1__user_table.sql" value="737707d1-2732-4b4a-af88-a9cd92d950e8" />
+  </component>
+</project>
