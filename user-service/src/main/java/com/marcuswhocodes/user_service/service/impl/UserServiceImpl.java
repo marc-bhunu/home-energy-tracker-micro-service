@@ -2,6 +2,7 @@ package com.marcuswhocodes.user_service.service.impl;
 
 import com.marcuswhocodes.user_service.domain.dto.UserDto;
 import com.marcuswhocodes.user_service.domain.entity.User;
+import com.marcuswhocodes.user_service.exceptions.UserNotFoundException;
 import com.marcuswhocodes.user_service.repositorty.UserRepository;
 import com.marcuswhocodes.user_service.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -31,16 +32,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserDto getUserById(Long id) {
-        log.info("Retrieving user by id: {}", id);
         return userRepository.findById(id)
                 .map(this::toDto)
-                .orElse(null);
+                .orElseThrow(() -> new UserNotFoundException("User not found with id: " + id));
     }
 
     @Override
     public void updateUser(Long id, UserDto userDto) {
         User user  = userRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+                .orElseThrow(() -> new UserNotFoundException("User not found"));
 
         user.setName(userDto.getName());
         user.setSurname(userDto.getSurname());
@@ -55,7 +55,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void deleteUser(Long id) {
         User user = userRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+                .orElseThrow(() -> new UserNotFoundException("User not found"));
         userRepository.delete(user);
     }
 
