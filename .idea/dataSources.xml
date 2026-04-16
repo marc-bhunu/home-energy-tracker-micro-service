@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="home_energy_tracker@localhost" uuid="737707d1-2732-4b4a-af88-a9cd92d950e8">
+    <data-source source="LOCAL" name="home_energy_tracker@localhost" uuid="b6c54cec-8535-45c7-9ea1-1f38d075bb33">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/home_energy_tracker</jdbc-url>
       <jdbc-additional-properties>
