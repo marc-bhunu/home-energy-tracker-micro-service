@@ -1110,6 +1110,31 @@
             </ReqHistory>
           </value>
         </entry>
+        <entry key="47">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/devices/{id}" />
+              <option name="id" value="47" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="19" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;name&quot;:&quot;Device0&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1}" />
+              <option name="time" value="2026-04-16 21:59:37" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
