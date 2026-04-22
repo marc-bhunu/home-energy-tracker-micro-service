@@ -26,7 +26,7 @@ class UserServiceApplicationTests {
 					.email("user" + i + "@example.com")
 					.address("address" + i + " Example Street")
 					.alerting(i % 2 == 0)
-					.energyAlertingThreshold(1000.0 + i )
+					.energyAlertingThreshold(100.0 + i )
 					.build();
 			userRepository.save(user);
 		}
