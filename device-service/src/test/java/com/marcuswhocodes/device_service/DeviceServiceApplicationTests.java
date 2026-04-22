@@ -9,12 +9,16 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Random;
+
 @Slf4j
 @SpringBootTest
 class DeviceServiceApplicationTests {
 
 	@Autowired
 	private DeviceRepository  deviceRepository;
+
+	Random  random = new Random();
 
 	@Test
 	void contextLoads() {
@@ -28,7 +32,7 @@ class DeviceServiceApplicationTests {
 					.name("Device" + i)
 					.type(DeviceType.values()[i % DeviceType.values().length])
 					.location("Location" + ((i % 3) + 1))
-					.userId((long) (1))
+					.userId((long) random.nextLong(1, 10) )
 					.build();
 			deviceRepository.save(device);
 		}

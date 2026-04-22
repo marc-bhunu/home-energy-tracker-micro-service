@@ -1,4 +1,5 @@
-package com.marcuswhocodes.kafak.event;
+package com.marcuswhocodes.kafka.event;
+
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Builder;
@@ -12,3 +13,4 @@ public record EnergyUsageEvent (
         @JsonFormat(shape =  JsonFormat.Shape.STRING)
         Instant timestamp
 ){}
+

@@ -2,7 +2,7 @@ package com.marcuswhocodes.ingestion_service.service.impl;
 
 import com.marcuswhocodes.ingestion_service.dto.EnergyUsageDto;
 import com.marcuswhocodes.ingestion_service.service.IngestionService;
-import com.marcuswhocodes.kafak.event.EnergyUsageEvent;
+import com.marcuswhocodes.kafka.event.EnergyUsageEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
