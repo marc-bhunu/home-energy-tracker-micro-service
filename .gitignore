@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+influxdb_data/
+docker/mysql/init.sql
+influxdb_data/engine/
+docker/kafka_data/
