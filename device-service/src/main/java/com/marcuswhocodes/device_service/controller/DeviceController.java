@@ -1,11 +1,14 @@
 package com.marcuswhocodes.device_service.controller;
 
 import com.marcuswhocodes.device_service.domain.dto.DeviceDto;
+import com.marcuswhocodes.device_service.domain.entity.Device;
 import com.marcuswhocodes.device_service.service.DeviceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -42,5 +45,11 @@ public class DeviceController {
         catch (Exception e) {
             return  new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
+    }
+
+    @GetMapping("/user/{userId}")
+    public ResponseEntity<List<DeviceDto>> getAllDevicesByUserId(@PathVariable Long userId){
+        List<DeviceDto> devices = deviceService.getAllDevicesByUserId(userId);
+        return ResponseEntity.ok(devices);
     }
 }

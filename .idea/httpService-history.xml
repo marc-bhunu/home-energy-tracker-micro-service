@@ -33,9 +33,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="1" />
               <option name="method" value="GET" />
@@ -57,9 +54,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="2" />
@@ -83,9 +77,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="3" />
               <option name="method" value="GET" />
@@ -107,9 +98,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="4" />
@@ -133,9 +121,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="5" />
               <option name="method" value="GET" />
@@ -158,17 +143,20 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/user/{userId}" />
               <option name="id" value="6" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="userId" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:2,&quot;name&quot;:&quot;Riley&quot;,&quot;surname&quot;:&quot;Joanes&quot;,&quot;email&quot;:&quot;riley.j@gmail.com&quot;,&quot;address&quot;:&quot;5 Jonaes, Blue Storms&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-04-14 16:09:53" />
-              <option name="uri" value="/api/v1/user/2" />
+              <option name="res" value="[{&quot;id&quot;:null,&quot;name&quot;:&quot;Device1&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device3&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device7&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device10&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device31&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device39&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device51&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device52&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device60&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device65&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device68&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device72&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device73&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device82&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device87&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device92&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device96&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device100&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1}]" />
+              <option name="time" value="2026-04-23 15:28:18" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -180,17 +168,20 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/user/{userId}" />
               <option name="id" value="7" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="userId" value="2" />
                 </map>
               </option>
-              <option name="res" value="" />
-              <option name="time" value="2026-04-14 16:38:54" />
-              <option name="uri" value="/api/v1/user/2" />
+              <option name="res" value="[{&quot;id&quot;:null,&quot;name&quot;:&quot;Device5&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device11&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device32&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device33&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device36&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device54&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device79&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device86&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device94&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:2},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device95&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2}]" />
+              <option name="time" value="2026-04-23 15:28:40" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -202,39 +193,45 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/user/{userId}" />
               <option name="id" value="8" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="userId" value="6" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Mark&quot;,&quot;surname&quot;:&quot;Bhunu&quot;,&quot;email&quot;:&quot;macbhunu@gmail.com&quot;,&quot;address&quot;:&quot;Alberton, South Africa&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-04-14 16:51:06" />
-              <option name="uri" value="/api/v1/user/1" />
+              <option name="res" value="[{&quot;id&quot;:null,&quot;name&quot;:&quot;Device9&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device18&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device20&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device25&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device41&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device45&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device47&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device48&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device49&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device50&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device56&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device62&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device63&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device69&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device77&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:null,&quot;name&quot;:&quot;Device89&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6}]" />
+              <option name="time" value="2026-04-23 15:29:09" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="9">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Rosie&quot;,&#10;  &quot;surname&quot;: &quot;Aliah&quot;,&#10;  &quot;email&quot;: &quot;rosie.aliah@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;6 Blue Anna Street&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/user/{userId}" />
+              <option name="id" value="9" />
+              <option name="method" value="GET" />
+              <option name="params">
                 <map>
-                  <entry key="Content-Type" value="application/json" />
+                  <entry key="userId" value="6" />
                 </map>
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="9" />
-              <option name="method" value="POST" />
-              <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;Rosie&quot;,&quot;surname&quot;:&quot;Aliah&quot;,&quot;email&quot;:&quot;rosie.aliah@gmail.com&quot;,&quot;address&quot;:&quot;6 Blue Anna Street&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-04-14 17:08:35" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="res" value="[{&quot;id&quot;:10,&quot;name&quot;:&quot;Device9&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:19,&quot;name&quot;:&quot;Device18&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:21,&quot;name&quot;:&quot;Device20&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:26,&quot;name&quot;:&quot;Device25&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:6},{&quot;id&quot;:42,&quot;name&quot;:&quot;Device41&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:46,&quot;name&quot;:&quot;Device45&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:48,&quot;name&quot;:&quot;Device47&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:49,&quot;name&quot;:&quot;Device48&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:50,&quot;name&quot;:&quot;Device49&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:6},{&quot;id&quot;:51,&quot;name&quot;:&quot;Device50&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:57,&quot;name&quot;:&quot;Device56&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:63,&quot;name&quot;:&quot;Device62&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:64,&quot;name&quot;:&quot;Device63&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:70,&quot;name&quot;:&quot;Device69&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:6},{&quot;id&quot;:78,&quot;name&quot;:&quot;Device77&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6},{&quot;id&quot;:90,&quot;name&quot;:&quot;Device89&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:6}]" />
+              <option name="time" value="2026-04-23 15:33:22" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -246,17 +243,21 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083/api/v1/usage/{userId}" />
               <option name="id" value="10" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="days" value="3" />
+                  <entry key="userId" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;Rosie&quot;,&quot;surname&quot;:&quot;Aliah&quot;,&quot;email&quot;:&quot;rosie.aliah@gmail.com&quot;,&quot;address&quot;:&quot;6 Blue Anna Street&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-04-14 17:09:05" />
-              <option name="uri" value="/api/v1/user/3" />
+              <option name="res" value="{&quot;userId&quot;:1,&quot;devices&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;Device1&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:49624.910000000134},{&quot;id&quot;:4,&quot;name&quot;:&quot;Device3&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:49713.249999999935},{&quot;id&quot;:8,&quot;name&quot;:&quot;Device7&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:49297.17999999997},{&quot;id&quot;:11,&quot;name&quot;:&quot;Device10&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:32,&quot;name&quot;:&quot;Device31&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:40,&quot;name&quot;:&quot;Device39&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:52,&quot;name&quot;:&quot;Device51&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:53,&quot;name&quot;:&quot;Device52&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:61,&quot;name&quot;:&quot;Device60&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:66,&quot;name&quot;:&quot;Device65&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:69,&quot;name&quot;:&quot;Device68&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:73,&quot;name&quot;:&quot;Device72&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:74,&quot;name&quot;:&quot;Device73&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:83,&quot;name&quot;:&quot;Device82&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:88,&quot;name&quot;:&quot;Device87&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:93,&quot;name&quot;:&quot;Device92&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:97,&quot;name&quot;:&quot;Device96&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:101,&quot;name&quot;:&quot;Device100&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:1,&quot;energyConsumed&quot;:0.0}]}" />
+              <option name="time" value="2026-04-23 15:45:45" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -268,17 +269,21 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083/api/v1/usage/{userId}" />
               <option name="id" value="11" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="1" />
+                  <entry key="days" value="3" />
+                  <entry key="userId" value="2" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Mark&quot;,&quot;surname&quot;:&quot;Bhunu&quot;,&quot;email&quot;:&quot;macbhunu@gmail.com&quot;,&quot;address&quot;:&quot;Alberton, South Africa&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-04-14 17:15:00" />
-              <option name="uri" value="/api/v1/user/{id}" />
+              <option name="res" value="{&quot;userId&quot;:2,&quot;devices&quot;:[{&quot;id&quot;:6,&quot;name&quot;:&quot;Device5&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:49678.32999999979},{&quot;id&quot;:12,&quot;name&quot;:&quot;Device11&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:33,&quot;name&quot;:&quot;Device32&quot;,&quot;type&quot;:&quot;LIGHT&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:34,&quot;name&quot;:&quot;Device33&quot;,&quot;type&quot;:&quot;LOCK&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:37,&quot;name&quot;:&quot;Device36&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:55,&quot;name&quot;:&quot;Device54&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location1&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:80,&quot;name&quot;:&quot;Device79&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:87,&quot;name&quot;:&quot;Device86&quot;,&quot;type&quot;:&quot;CAMERA&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:95,&quot;name&quot;:&quot;Device94&quot;,&quot;type&quot;:&quot;DOORBELL&quot;,&quot;location&quot;:&quot;Location2&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0},{&quot;id&quot;:96,&quot;name&quot;:&quot;Device95&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;Location3&quot;,&quot;userId&quot;:2,&quot;energyConsumed&quot;:0.0}]}" />
+              <option name="time" value="2026-04-23 15:46:10" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -290,17 +295,20 @@
               <option name="fileNames">
                 <array />
               </option>
+              <option name="headers">
+                <map />
+              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="12" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="2" />
+                  <entry key="userId" value="1" />
                 </map>
               </option>
-              <option name="res" value="Error request, response status: 404" />
-              <option name="time" value="2026-04-14 17:15:13" />
-              <option name="uri" value="/api/v1/user/{id}" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Apr 23 17:17:58 SAST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-04-23 17:17:58" />
+              <option name="uri" value="/api/v1/insight/overview/{userId}" />
             </ReqHistory>
           </value>
         </entry>
@@ -1142,8 +1150,8 @@
     </option>
     <option name="point">
       <AtomicInteger>
-        <option name="opaque" value="6" />
-        <option name="plain" value="6" />
+        <option name="opaque" value="13" />
+        <option name="plain" value="13" />
       </AtomicInteger>
     </option>
   </component>

@@ -8,6 +8,7 @@ public class InsightsServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InsightsServiceApplication.class, args);
+		System.out.println("InsightsServiceApplication started");
 	}
 
 }
