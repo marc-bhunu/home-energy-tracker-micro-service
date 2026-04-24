@@ -1,4 +1,13 @@
 package com.marcuswhocodes.insights_service.model.dto;
 
-public class UsageDto {
+import lombok.Builder;
+
+import java.util.List;
+
+@Builder
+public record UsageDto(
+        Long userId,
+        List<DeviceDto> devices
+) {
+
 }

@@ -8,6 +8,8 @@ import com.marcuswhocodes.device_service.service.DeviceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class DeviceServiceImpl implements DeviceService {
@@ -53,8 +55,18 @@ public class DeviceServiceImpl implements DeviceService {
         deviceRepository.delete(device);
     }
 
+    @Override
+    public List<DeviceDto> getAllDevicesByUserId(Long userId) {
+        return deviceRepository
+                .findAllByUserId(userId)
+                .stream()
+                .map(this::mapToDto)
+                .toList();
+    }
+
     private DeviceDto mapToDto(Device device) {
         return DeviceDto.builder()
+                .id(device.getId())
                 .name(device.getName())
                 .type(device.getType())
                 .location(device.getLocation())
