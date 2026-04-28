@@ -4,3 +4,9 @@ influxdb_data/
 docker/mysql/init.sql
 influxdb_data/engine/
 docker/kafka_data/
+# Keycloak generated files
+docker/keycloak/realms/
+docker/keycloak/*.db
+docker/keycloak/data/
+
+volume-data
