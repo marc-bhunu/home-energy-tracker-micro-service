@@ -120,20 +120,20 @@ docker compose down
 
 ```
 home-energy-tracker/
-├── api-gateway/              # Spring Cloud Gateway (port 9000)
-├── user-service/             # User CRUD & authentication (port 8080)
-├── device-service/           # Device management
-├── ingestion-service/        # Energy event producer (port 8082)
-├── usage-service/            # Kafka consumer → InfluxDB
-├── alert-service/            # Alert consumer → Email (port 8084)
-├── insights-service/         # ML-powered recommendations
-├── docker/                   # Infrastructure configuration
-│   ├── mysql/init.sql        # Database initialization
-│   ├── keycloak/realms/      # Keycloak realm imports
-│   ├── prometheus/           # Metrics configuration
-│   └── grafana/              # Grafana provisioning
-├── docker-compose.yml        # Orchestration
-└── AGENTS.md                 # AI agent coding guide
+├── api-gateway/               Spring Cloud Gateway (port 9000)
+├── user-service/              User CRUD & authentication (port 8080)
+├── device-service/            Device management
+├── ingestion-service/         Energy event producer (port 8082)
+├── usage-service/             Kafka consumer → InfluxDB
+├── alert-service/             Alert consumer → Email (port 8084)
+├── insights-service/          ML-powered recommendations
+├── docker/                    Infrastructure configuration
+│   ├── mysql/init.sql         Database initialization
+│   ├── keycloak/realms/       Keycloak realm imports
+│   ├── prometheus/            Metrics configuration
+│   └── grafana/               Grafana provisioning
+├── docker-compose.yml         Orchestration
+└── AGENTS.md                  AI agent coding guide
 ```
 
 ---
